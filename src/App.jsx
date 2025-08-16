@@ -55,7 +55,7 @@ const ProtectedRoute = ({ children }) => {
     if (error === 0) {
       return <Navigate to="/login" replace />;
     } else if (error === 1) {
-      return <Navigate to="/RegistrationForms" replace />;
+      return <Navigate to="/" replace />;
     } else if (!error) {
 
       console.log(1234, error);
